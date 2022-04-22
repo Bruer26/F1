@@ -6,6 +6,7 @@ body {
   font-family: "Racing Sans One", cursive;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1.header {
@@ -24,29 +25,189 @@ h1.header {
 .card {
   display: flexbox;
   flex-direction: column;
-  background: rgba(234, 234, 234, 0.6);
+  background: rgba(234, 234, 234, 0.4);
   padding: 2em;
   border: 4px solid white;
   border-radius: 10px;
   margin: 2em 3em;
 }
 
-.season-info {
+.season-info-catagory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(185, 0, 0);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: large;
+  width: auto;
+  margin: 1em;
+  color: white;
+}
+
+.season-info-tara {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #eee;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(0, 11, 141, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 11, 141, 0.6) 23%,
+    rgba(255, 211, 0, 0.6) 45%,
+    rgba(226, 27, 77, 0.6) 66%
+  );
   font-size: large;
   width: auto;
   margin: 1em;
+}
+
+.season-info-katie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgb(166, 5, 26, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 5, 26, 0.6) 58%,
+    rgba(255, 235, 0, 0.6) 69%,
+    rgba(255, 255, 255, 0.6) 78%,
+    rgba(17, 17, 17, 0.6) 97%
+  );
+  font-size: large;
+  width: auto;
+  margin: 1em;
+}
+
+.season-info-jason {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgb(245, 128, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 128, 0, 0.6) 23%,
+    rgba(71, 199, 252, 0.6) 35%,
+    rgba(255, 255, 255, 0.6) 65%,
+    rgba(0, 0, 0, 0.6) 84%
+  );
+  font-size: large;
+  width: auto;
+  margin: 1em;
+}
+
+.season-info-scott {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgb(0, 91, 169), 0.6;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 91, 169, 0.6) 33%,
+    rgba(0, 120, 193, 0.6) 46%,
+    rgba(253, 75, 199, 0.6) 100%
+  );
+  font-size: large;
+  width: auto;
+  margin: 1em;
+}
+
+.season-info-graeme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgb(0, 210, 190, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 210, 190, 0.6) 33%,
+    rgba(170, 169, 173, 0.6) 100%
+  );
+  font-size: large;
+  width: auto;
+  margin: 1em;
+}
+
+.season-info-pete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgb(255, 255, 255, 0.6);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 72%
+  );
+  font-size: large;
+  width: auto;
+  margin: 1em;
+}
+
+.season-catagory {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  width: 350px;
 }
 
 .season-catagories {
   align-items: center;
   justify-content: center;
   margin: 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  width: fit-content;
+}
+
+.weekly-drivers {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  width: fit-content;
+}
+
+.weekly-total {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  width: fit-content;
+}
+
+.season-total {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  margin-right: 50px;
   border: 1px solid #eee;
   padding: 15px;
   border-radius: 10px;
@@ -64,14 +225,14 @@ h1.header {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.2);
   font-size: large;
-  width: fit-content;
+  width: 350px;
 }
 
 .driver-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background: rgba(234, 234, 234, 0.6);
+  background: rgba(234, 234, 234, 0.4);
   padding: 2em;
   border: 4px solid white;
   border-radius: 10px;
