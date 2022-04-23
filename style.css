@@ -107,12 +107,14 @@ h1.header {
   justify-content: space-between;
   border: 1px solid #eee;
   border-radius: 10px;
-  background: rgb(0, 91, 169), 0.6;
+  background: rgb(78, 44, 2, 0.6);
   background: linear-gradient(
     90deg,
-    rgba(0, 91, 169, 0.6) 33%,
-    rgba(0, 120, 193, 0.6) 46%,
-    rgba(253, 75, 199, 0.6) 100%
+    rgba(78, 44, 2, 0.6) 8%,
+    rgba(122, 89, 1, 0.6) 40%,
+    rgba(89, 122, 50, 0.6) 55%,
+    rgba(101, 94, 53, 0.6) 75%,
+    rgba(255, 235, 0, 0.6) 100%
   );
   font-size: large;
   width: auto;
