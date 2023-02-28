@@ -2,3 +2,9 @@ body{
 background:#000;
 color:#fff;
 font-family:sans-serif;}
+
+table, td, th {
+border: 1px solid;
+}
+td, th {
+padding: 3px;}
