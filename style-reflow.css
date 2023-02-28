@@ -5,10 +5,12 @@ font-family:sans-serif;}
 table {border-collapse: collapse;
 background: #000;}
 table, td, th {
-border: 1px solid #FFF;
+border: 1px solid #666;
 }
 td, th {
 padding: 3px;}
 th{
 background: #b10413;
+  border-color:#bfbfbf;
 }
+
