@@ -1,9 +1,5 @@
 body{
 background:#000;
-  background-image: url("gif/f1.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-attachment: fixed;
 color:#fff;
 font-family:sans-serif;}
 table {border-collapse: collapse;
@@ -15,4 +11,5 @@ td, th {
 padding: 3px;}
 th{
 background: #FF1801;
+  color:#000;
 }
