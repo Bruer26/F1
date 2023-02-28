@@ -1,5 +1,9 @@
 body{
 background:#000;
+  background-image: url("gif/ferrari.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
 color:#fff;
 font-family:sans-serif;}
 table {border-collapse: collapse;}
