@@ -6,9 +6,13 @@ background:#000;
   background-attachment: fixed;
 color:#fff;
 font-family:sans-serif;}
-table {border-collapse: collapse;}
+table {border-collapse: collapse;
+background: #000;}
 table, td, th {
 border: 1px solid #FFF;
 }
 td, th {
 padding: 3px;}
+th{
+background: #FF1801;
+}
