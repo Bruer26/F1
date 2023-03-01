@@ -29,6 +29,9 @@ aside {}
 /*Link Lists*/
 ul.linkList {
   color:#FFF;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 ul.linkList a {
   color:#fff;
