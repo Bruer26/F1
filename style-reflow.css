@@ -28,7 +28,7 @@ aside {}
 
 /* Link Lists */
 
-ul.linkList {
+ul.linklist {
   color:#FFF;
   list-style-type: none;
   margin: 0;
@@ -37,7 +37,7 @@ ul.linkList {
 ul.linklist li {
   padding-bottom: 10px;
 }
-ul.linkList li a {
+ul.linklist li a {
   color:#fff;
 }
 
