@@ -11,8 +11,12 @@ background: #000;}
 max-width:80%;}
 
 /*Containers*/
-main {}
-aside {}
+main { 
+  padding: 10px;
+}
+aside {
+  padding: 10px;
+}
 .container {
   display:flex;
   flex-direction:row;
@@ -20,6 +24,14 @@ aside {}
 }
 .item {
   
+}
+
+/*Link Lists*/
+ul.linkList {
+  color:#FFF;
+}
+ul.linkList a {
+  color:#fff;
 }
 
 /* table */
