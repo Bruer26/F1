@@ -11,12 +11,12 @@ background: #000;}
 max-width:80%;}
 
 /*Containers*/
-main { 
+main, aside, header { 
   padding: 10px;
 }
-aside {
-  padding: 10px;
-}
+header {}
+main {}
+aside {}
 .container {
   display:flex;
   flex-direction:row;
