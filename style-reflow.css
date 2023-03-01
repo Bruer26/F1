@@ -4,6 +4,26 @@ color:#fff;
 font-family:sans-serif;}
 table {border-collapse: collapse;
 background: #000;}
+
+/*Header and headings*/
+
+.logo {
+max-width:80%;}
+
+/*Containers*/
+main {}
+aside {}
+.container {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.item {
+  
+}
+
+/* table */
+
 table, td, th {
 border: 1px solid #666;
 }
@@ -13,5 +33,4 @@ th{
 background: #b10413;
   border-color:#bfbfbf;
 }
-.logo {
-max-width:80%;}
+
