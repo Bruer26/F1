@@ -12,7 +12,7 @@ max-width:80%;}
 
 /*Containers*/
 main, aside, header { 
-  padding: 10px;
+  padding: 20px;
 }
 header {}
 main {}
@@ -46,3 +46,8 @@ background: #b10413;
   border-color:#bfbfbf;
 }
 
+@media only screen and (max-width: 600px) {
+  .page-reflow main, .page-reflow header, .page-reflow aside  {
+    padding: 10px;
+  }
+}
