@@ -5,12 +5,12 @@ font-family:sans-serif;}
 table {border-collapse: collapse;
 background: #000;}
 
-/*Header and headings*/
+/* Header and headings */
 
 .logo {
 max-width:80%;}
 
-/*Containers*/
+/* Containers */
 main, aside, header { 
   padding: 20px;
 }
@@ -26,14 +26,18 @@ aside {}
   
 }
 
-/*Link Lists*/
+/* Link Lists */
+
 ul.linkList {
   color:#FFF;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-ul.linkList a {
+ul.linklist li {
+  padding-bottom: 10px;
+}
+ul.linkList li a {
   color:#fff;
 }
 
@@ -48,6 +52,8 @@ th{
 background: #b10413;
   border-color:#bfbfbf;
 }
+
+/* Reflow */
 
 @media only screen and (max-width: 600px) {
   .page-reflow main, .page-reflow header, .page-reflow aside  {
