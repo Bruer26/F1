@@ -158,7 +158,7 @@
       shouldSwitch = false;
       x = rows[i].getElementsByTagName("td")[4];
       y = rows[i + 1].getElementsByTagName("td")[4];
-      if (Number(x.innerHTML) > Number(y.innerHTML)) {
+      if (Number(x.innerHTML) < Number(y.innerHTML)) {
         shouldSwitch = true;
         break;
       }
@@ -169,6 +169,7 @@
     }
   }
 }
+      sortTable()
     </script>
     <script src="script.js"></script>
   </body>
