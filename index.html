@@ -21,51 +21,37 @@
         <tr>
           <th>Team Name</th>
           <th>Principal</th>
-          <th>Primary</th>
-          <th>Secondary</th>
           <th>Total</th>
         </tr>
         <tr>
           <td>Big Ric Energy</td>
           <td>Jason</td>
-          <td>Verstappen</td>
-          <td>Norris</td>
-          <td>66</td>
+          <td>91</td>
         </tr>
         <tr>
           <td>Let Checo Pass</td>
           <td>Scott</td>
-          <td>Checo</td>
-          <td>Piastri</td>
-          <td>66</td>
+          <td>81</td>
         </tr>
         <tr>
           <td>Corse Di Merda RedBull</td>
           <td>Graeme</td>
-          <td>Alonso</td>
-          <td>Gasly</td>
-          <td>55</td>
+          <td>73</td>
         </tr>
         <tr>
           <td>Max's only fan</td>
           <td>Tara</td>
-          <td>Russell</td>
-          <td>Stroll</td>
-          <td>65</td>
+          <td>71</td>
         </tr>
         <tr>
           <td>C'Mando with Lando</td>
           <td>Katie</td>
-          <td>Hamilton</td>
-          <td>Sainz</td>
-          <td>71</td>
+          <td>83</td>
         </tr>
         <tr>
           <td>F.E.A Racing</td>
           <td>Peter</td>
-          <td>Leclerc</td>
-          <td>Ocon</td>
-          <td>68</td>
+          <td>88</td>
         </tr>
       </table>
       <h2>Round 5 Pick order:</h2>
@@ -164,8 +150,8 @@
     rows = table.rows;
     for (i = 1; i < (rows.length - 1); i++) {
       shouldSwitch = false;
-      x = rows[i].getElementsByTagName("td")[4];
-      y = rows[i + 1].getElementsByTagName("td")[4];
+      x = rows[i].getElementsByTagName("td")[2];
+      y = rows[i + 1].getElementsByTagName("td")[2];
       if (Number(x.innerHTML) < Number(y.innerHTML)) {
         shouldSwitch = true;
         break;
